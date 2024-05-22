@@ -1,0 +1,137 @@
+body {
+    font-family: 'HankenGrotesk';
+    margin: 0;
+    padding: 0;
+}
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #CAC9FF;
+    padding-top: 1rem;
+}
+
+.title-max {
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    font-family: 'HankenGrotesk';
+}
+
+.text {
+    color: #CAC9FF;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'HankenGrotesk';
+    padding-bottom: 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.circle {
+    text-align: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 118px;
+    margin: 0 auto;
+    padding: 2em 1em;
+
+    .number {
+        font-weight: 700;
+        font-size: 56px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .label {
+        color: #CAC9FF;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.summary {
+    margin: 1.5rem;
+    gap: 15px;
+    display: grid;
+}
+
+.summary-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #303B59;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr;
+    padding: 0 1rem;
+    border-radius: 12px;
+}
+
+.reaction {
+    background-color: rgba(255, 85, 85, 0.1);
+    color: #FF5555;
+}
+
+.memory {
+    background-color: rgba(255, 178, 30, 0.1);
+    color: #FFB21E;
+}
+
+.verbal {
+    background-color: rgba(0, 187, 143, 0.1);
+    color: #00BB8F;
+}
+
+.visual {
+    background-color: rgba(17, 37, 214, 0.1);
+    color: #1125D6;
+}
+
+img {
+    padding-top: 50%;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #303B59;
+}
+
+.value {
+    color: hsla(224, 30%, 27%, .5);
+}
+
+button {
+    border-radius: 128px;
+    background-color: #303B59;
+    border: none;
+    color: white;
+    padding: 1rem 0;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+    font-style: 600;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+    font-style: 700;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+    font-style: 500;
+}
