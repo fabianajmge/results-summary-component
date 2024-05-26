@@ -116,6 +116,24 @@ button {
     border: none;
     color: white;
     padding: 1rem 0;
+    font-family: 'HankenGrotesk';
+}
+
+@media screen and (min-width: 769px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+        margin: 10% auto 0 auto;
+    }
+
+    .result {
+        border-radius: 1.5rem;
+    }
+
+    button:active {
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
 }
 
 @font-face {
